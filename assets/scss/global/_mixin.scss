@@ -1,0 +1,18 @@
+@use "../global/variable" as g;
+
+//Media Query
+@mixin tab {
+  @media screen and (min-width: (g.$tab + px)) {
+    @content;
+  }
+}
+@mixin lap {
+  @media screen and (min-width: (g.$lap + px)) {
+    @content;
+  }
+}
+@mixin pc {
+  @media screen and (min-width: (g.$pc + px)) {
+    @content;
+  }
+}
