@@ -1,6 +1,10 @@
 <template>
   <header class="l-header">
-    <h1>Header</h1>
+    <h1>
+      <a href="/">
+        <atomsSiteName />
+      </a>
+    </h1>
     <atomsTheHumbergerButton />
     <organismsTheGlobalNavi />
   </header>
