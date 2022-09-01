@@ -1,5 +1,14 @@
 <template>
   <footer class="l-footer">
-    <h1>Footer</h1>
+    <dl>
+      <dt>
+        <a href="/">
+          <atomsSiteName />
+        </a>
+      </dt>
+      <dd>
+        <moleculesNaviList />
+      </dd>
+    </dl>
   </footer>
 </template>
