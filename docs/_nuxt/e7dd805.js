@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{290:function(n,t,e){"use strict";e.r(t);var c=e(46),component=Object(c.a)({},(function(){this._self._c;return this._m(0)}),[function(){var n=this,t=n._self._c;return t("button",{staticClass:"c-humbergerButton"},[t("span"),n._v(" "),t("span"),n._v(" "),t("span")])}],!1,null,null,null);t.default=component.exports}}]);
