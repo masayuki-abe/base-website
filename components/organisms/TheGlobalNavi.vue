@@ -1,5 +1,5 @@
 <template>
   <nav class="l-globalNavi">
-    <moleculesNaviList />
+    <moleculesNaviList class="l-globalNavi_list" />
   </nav>
 </template>
