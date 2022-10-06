@@ -1,13 +1,13 @@
 <template>
-  <footer class="l-footer">
-    <dl>
-      <dt>
+  <footer class="l-footer" style="padding-top:500px;">
+    <dl class="l-footer_dlist">
+      <dt class="l-footer_dlistTerm">
         <a href="/">
           <atomsSiteName />
         </a>
       </dt>
-      <dd>
-        <moleculesNaviList />
+      <dd class="l-footer_dlistDiscription">
+        <moleculesNaviList class="l-footer_list" />
       </dd>
     </dl>
   </footer>

@@ -1,0 +1,49 @@
+@use "../global" as g;
+
+.c-contentList{
+  &.l-globalNavi_list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &.l-footer_list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  &_list{
+    .l-globalNavi_list &{
+      width: 50%;
+      border: 1px #333 solid;
+      border-top: none;
+      border-left: none;
+      @include g.tab() {
+        width: auto;
+        border: none;
+      }
+      a{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        color: #333;
+        font-size: 1.6rem;
+        line-height: 1;
+        text-decoration: none;
+      }
+    }
+    .l-footer_list &{
+      width: 85%;
+      border-bottom: 1px #333 solid;
+      a{
+        display: block;
+        padding: 1em;
+        color: #333;
+        font-size: 1.6rem;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+  }
+}
