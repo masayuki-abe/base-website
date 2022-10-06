@@ -1,0 +1,14 @@
+@use "../global" as g;
+
+.l-globalNavi{
+  position: absolute;
+  left: 0;
+  top: calc(100% + 1px);
+  z-index: 10000;
+  width: 100%;
+  background-color: #fff;
+  @include g.tab() {
+    position: static;
+    width: auto;
+  }
+}
