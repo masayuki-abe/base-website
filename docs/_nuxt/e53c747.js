@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{289:function(n,t,e){"use strict";e.r(t);var l=e(46),component=Object(l.a)({},(function(){return(0,this._self._c)("span",[this._v("SiteName")])}),[],!1,null,null,null);t.default=component.exports}}]);
