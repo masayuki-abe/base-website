@@ -1,5 +1,8 @@
 <template>
-  <ul class="c-contentList">
+  <ul
+    class="c-contentList"
+    :class="contentListStyle"
+  >
     <li class="c-contentList_list">
       <a href="/">home</a>
     </li>
@@ -21,7 +24,7 @@
 <script>
 export default {
   props: {
-    class: {
+    contentListStyle: {
       type: String,
     }
   },
