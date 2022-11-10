@@ -6,9 +6,22 @@
   top: calc(100% + 1px);
   z-index: 10000;
   width: 100%;
+  transition: height .6s ease;
   background-color: #fff;
   @include g.tab() {
     position: static;
     width: auto;
+  }
+}
+.jsGlobalNavi{
+  &-enter-active,&-leave-active{
+    opacity: 0;
+    transition: all .4s ease;
+  }
+  &-enter-from,&-leave-to{
+    opacity: 0;
+  }
+  &-enter-to,&-leave-from{
+    opacity: 1;
   }
 }
