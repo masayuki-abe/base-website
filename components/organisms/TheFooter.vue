@@ -7,7 +7,7 @@
         </a>
       </dt>
       <dd class="l-footer_dlistDiscription">
-        <moleculesNaviList class="l-footer_list" />
+        <moleculesNaviList contentListStyle="l-footer_list" />
       </dd>
     </dl>
   </footer>
